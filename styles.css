@@ -31,7 +31,7 @@ nav {
     padding-left: 40px;
     padding-right: 40px;
     background-color: #fff;
-    /* animation: open 2s ease; */
+    animation: open 2s ease;
 }
 
 nav > .icons {
@@ -42,7 +42,7 @@ nav > .icons {
     align-items: center;
     gap: 20px;
     font-size: 18px;
-    /* animation: open 1s ease; */
+    animation: open 1s ease;
 }
 
 nav ul {
@@ -59,7 +59,7 @@ nav ul li {
     font-size: 18px;
     font-weight: 600;
     color: #212529;
-    /* animation: open 1s linear; */
+    animation: open 1s linear;
 }
 
 nav ul li:hover {
@@ -97,7 +97,7 @@ nav .logo::after {
     width: 200px;
     border: 2px solid #FAD110;
     text-align: center;
-    /* animation: open 1s ease-in-out; */
+    animation: open 1s ease-in-out;
 }
 
 .number > p {
@@ -127,9 +127,9 @@ nav .logo::after {
     background-color: #fff;
 }
 
-/* .text-box h1, p, button {
+.text-box h1, p, button {
     animation: slideUp 2.7s ease-out;
-} */
+}
 
 @keyframes slideUp {
     from {
@@ -1167,12 +1167,20 @@ footer p {
         width: 100%;
     }
     .text-box {
-        height: 330px;
+        height: 230px;
         width: 290px;
         margin-left: -80px;
     }
+    .text-box p {
+        font-size: 14px;
+    }
     .text-box h1 {
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .text-box button {
+        margin-top: -30px;
+        height: 10px;
+        width: 160px;
     }
     .cards {
         margin-top: 80px;
@@ -1335,28 +1343,32 @@ footer p {
         font-size: 10px;
     }
     footer {
-        height: 1430px;
+        height: 1520px;
+    }
+    .line-hr {
+        margin-left: 60px;
     }
     .quick-links {
         width: 100%;
         justify-content: flex-start;
-        align-items: center;
+        /* align-items: center; */
         flex-direction: column;
         gap: 70px;
     }
     .contact-us, .quick-link-list, .news, .subscribe {
-        width: 50%;
+        width: 100%;
+        padding-left: 15%;
     }
     .quick-link-list{
-        width: 50%;
+        width: 100%;
         justify-content: flex-start;
     }
     .final-line {
-        margin-top: 880px;
-        margin-left: -40px;
+        margin-top: 970px;
+        margin-left: -45px;
     }
     .copyright {
-        margin-top: 880px;
+        margin-top: 970px;
         text-align: center;
     }
 }
