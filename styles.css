@@ -1264,7 +1264,7 @@ footer p {
         font-size: 12px;
     }
     .modern h1 {
-        font-size: 26px;
+        font-size: 24px;
     }
     .products {
         flex-direction: column;
@@ -1290,7 +1290,7 @@ footer p {
     }
     .blogs {
         margin-top: 550px;
-        margin-left: -100px;
+        margin-left: -115px;
         width: 100%;
         flex-direction: column;
     }
