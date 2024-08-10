@@ -1194,7 +1194,7 @@ footer p {
     .inner-cards {
         width: 100%;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 60px;
     }
     .cards-icons {
         left: 43%;
@@ -1263,15 +1263,18 @@ footer p {
         width: 100%;
         margin-top: 850px;
     }
+    .modern p {
+        font-size: 14px;
+    }
     .modern h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
     .products {
         flex-direction: column;
         gap: 50px;
     }
     .inner-items {
-        margin-top: 140px;
+        margin-top: 180px;
         justify-content: center;
         flex-wrap: wrap;
         gap: 170px;
@@ -1283,7 +1286,7 @@ footer p {
         margin-top: 1450px; 
     }
     .latest-heading {
-        left: 120px;
+        left: 100px;
     }
     .latest-news h1 {
         font-size: 28px;
@@ -1293,6 +1296,9 @@ footer p {
         margin-left: -100px;
         width: 100%;
         flex-direction: column;
+    }
+    .blog > img{
+        width: 350px;
     }
     .contact {
         height: 90px;
