@@ -1146,6 +1146,10 @@ footer p {
     nav{
         height: 320px;
         width: 100%;
+        justify-content: space-evenly;
+    }
+    nav .icons {
+        flex-direction: column;
     }
     nav ul {
         flex-direction: column;
