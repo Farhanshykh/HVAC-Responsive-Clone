@@ -1222,7 +1222,7 @@ footer p {
         overflow: hidden;
     }
     .quality-text {
-        width: 70%;
+        width: 100%;
         margin-top: 20px;
     }
     .quality-text > img{
@@ -1230,14 +1230,14 @@ footer p {
         top: 480px;
     }
     .get-a-quote {
-        height: 1000px;
+        height: 1150px;
         width: 100%;
         flex-direction: column;
         margin-top: 700px;
     }
     .form{
         height: fit-content;
-        width: 30%;
+        width: 100%;
     }
     form > select {
         margin-top: 15px;
@@ -1247,7 +1247,7 @@ footer p {
     }
     .vid {
         height: 600px;
-        width: 72%;
+        width: 100%;
         margin-top: 30px;
     }
     .vid img {
