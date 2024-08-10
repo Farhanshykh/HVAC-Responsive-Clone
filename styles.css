@@ -1147,6 +1147,7 @@ footer p {
         height: 320px;
         width: 100%;
         justify-content: space-evenly;
+        gap: 30px;
     }
     nav .icons {
         flex-direction: column;
@@ -1159,28 +1160,28 @@ footer p {
         display: none;
     }
     .header{
-        height: 500px;
-        width: 70%;
+        height: 530px;
+        width: 100%;
     }
     .text-box {
-        height: 300px;
-        width: 350px;
+        height: 330px;
+        width: 290px;
         margin-left: -80px;
     }
     .text-box h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
     .cards {
-        margin-top: 30px;
+        margin-top: 80px;
         flex-wrap: wrap;
         justify-content: center;
     }
     .card {
-        width: 70%;
+        width: 100%;
     }
     .services {
         flex-direction: column;
-        margin-top: 730px;
+        margin-top: 750px;
     }
     .quote {
         margin-top: 10px;
@@ -1190,7 +1191,7 @@ footer p {
         flex-wrap: wrap;
     }
     .inner-cards {
-        width: 70%;
+        width: 100%;
         text-align: center;
         margin-top: 30px;
     }
@@ -1217,7 +1218,7 @@ footer p {
     }
     .quality-img {
         height: 450px;
-        width: 70%;
+        width: 100%;
         overflow: hidden;
     }
     .quality-text {
