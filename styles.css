@@ -1300,10 +1300,10 @@ footer p {
         font-size: 28px;
     }
     .blogs {
-        margin-top: 550px;
-        margin-left: -115px;
+        margin-left: -122px;
         width: 100%;
         flex-direction: column;
+        justify-content: flex-start;
     }
     .blog {
         width: 100%;
@@ -1316,13 +1316,14 @@ footer p {
     }
     .contact-no > img {
         height: 30px;
+        margin-right: -20px;
     }
     .contact-details {
         width: 100%;
         margin-top: 1350px;
     }
     .contact-heading p{
-        font-size: 12px;
+        font-size: 8px;
     }
     .contact-heading h1 {
         font-size: 14px;
@@ -1338,17 +1339,16 @@ footer p {
     }
     .quick-links {
         width: 100%;
-        margin-left: 50px;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
         gap: 70px;
     }
     .contact-us, .quick-link-list, .news, .subscribe {
-        width: 100%;
-        margin-left: 50px;
+        width: 50%;
     }
     .quick-link-list{
-        width: 100%;
+        width: 50%;
         justify-content: flex-start;
     }
     .final-line {
