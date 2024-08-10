@@ -434,6 +434,7 @@ nav .logo::after {
 }
 
 .get-a-quote {
+    max-height: 1000px;
     height: 600px;
     width: 100%;
     background-color: #4586d5;
@@ -1211,6 +1212,7 @@ footer p {
         background-color: #142336;
     }
     .quality {
+        height: 600px;
         margin-top: 20px;
         width: 100%;
         flex-wrap: wrap;
@@ -1222,6 +1224,7 @@ footer p {
         overflow: hidden;
     }
     .quality-text {
+        height: fit-content;
         width: 100%;
         margin-top: 20px;
     }
@@ -1246,35 +1249,93 @@ footer p {
         width: 300px;
     }
     .vid {
-        height: 600px;
         width: 100%;
         margin-top: 30px;
     }
     .vid img {
-        height: 600px;
-    }
-    .testimonial {
-        display: none;
+        height: 100px;
     }
     .clients-box {
-        display: none;
+        flex-wrap: wrap;
+        gap: 150px;
     }
     .modern {
-        display: none;
+        width: 100%;
+        margin-top: 850px;
+    }
+    .modern h1 {
+        font-size: 36px;
     }
     .products {
-        display: none;
+        flex-direction: column;
+        gap: 50px;
     }
-    .items {
-        display: none;
+    .inner-items {
+        margin-top: 140px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 170px;
+        width: 100%;
     }
     .latest-news {
-        display: none;
+        height: 300px;
+        width: 100%;
+        margin-top: 1450px; 
+    }
+    .latest-heading {
+        left: 120px;
+    }
+    .latest-news h1 {
+        font-size: 28px;
     }
     .blogs {
-        display: none;
+        margin-top: 550px;
+        margin-left: -100px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contact {
+        height: 90px;
+    }
+    .contact-no > img {
+        height: 30px;
     }
     .contact-details {
-        display: none;
+        width: 100%;
+        margin-top: 1350px;
+    }
+    .contact-heading p{
+        font-size: 12px;
+    }
+    .contact-heading h1 {
+        font-size: 14px;
+    }
+    .no-details p {
+        font-size: 8px;
+    }
+    .no-details h1 {
+        font-size: 10px;
+    }
+    footer {
+        height: 1430px;
+    }
+    .quick-links {
+        width: 100%;
+        margin-left: 50px;
+        align-items: center;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .contact-us, .quick-link-list, .news, .subscribe {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .quick-link-list{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .copyright {
+        margin-top: 880px;
+        text-align: center;
     }
 }
