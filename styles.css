@@ -1145,7 +1145,7 @@ footer p {
     }
     nav{
         height: 320px;
-        width: 75%;
+        width: 100%;
     }
     nav ul {
         flex-direction: column;
