@@ -1141,9 +1141,6 @@ footer p {
 }
 
 @media (max-width: 576px) {
-    body{
-        background-color: #B94040;
-    }
     nav{
         height: 320px;
         width: 100%;
@@ -1264,10 +1261,10 @@ footer p {
         margin-top: 850px;
     }
     .modern p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .modern h1 {
-        font-size: 30px;
+        font-size: 26px;
     }
     .products {
         flex-direction: column;
@@ -1286,7 +1283,7 @@ footer p {
         margin-top: 1450px; 
     }
     .latest-heading {
-        left: 100px;
+        left: 80px;
     }
     .latest-news h1 {
         font-size: 28px;
@@ -1296,6 +1293,9 @@ footer p {
         margin-left: -100px;
         width: 100%;
         flex-direction: column;
+    }
+    .blog {
+        width: 100%;
     }
     .blog > img{
         width: 350px;
@@ -1339,6 +1339,10 @@ footer p {
     .quick-link-list{
         width: 100%;
         justify-content: flex-start;
+    }
+    .final-line {
+        margin-top: 880px;
+        margin-left: -40px;
     }
     .copyright {
         margin-top: 880px;
